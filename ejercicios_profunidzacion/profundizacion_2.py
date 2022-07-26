@@ -20,6 +20,13 @@ enteros, y luego en cada caso informe si el número es par
 o impar.
 Para cada caso imprimir el resultado en pantalla.
 '''
+
+
+
+print('Ejercicios de práctica con números')
+# Empezar aquí la resolución del ejercicio
+
+
 print("ingrese el primer numero")
 numero_1 = float(input())   # esta mal ponerlo como float por si la persona ingresa numeros con decimales?
 print("ingrese el segundo numero") 
@@ -42,8 +49,3 @@ if numero_3 % 2 == 0 :
 else :
     print(numero_3, "Es un numero impar")
 
-
-
-
-print('Ejercicios de práctica con números')
-# Empezar aquí la resolución del ejercicio
