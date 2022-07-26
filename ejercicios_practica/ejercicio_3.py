@@ -45,13 +45,13 @@ else :
 puntaje = 70
 nota_final = str
 
-if puntaje == 90 :
+if puntaje >= 90 :
     nota_final = "A"
-elif puntaje == 80 :
+elif puntaje >= 80 :
     nota_final = "B"
-elif puntaje == 70 :
+elif puntaje >= 70 :
     nota_final = "C"
-elif puntaje == 60 :
+elif puntaje >= 60 :
     nota_final == "B"
 else :
     nota_final == "F"
