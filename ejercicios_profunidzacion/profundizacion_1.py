@@ -20,5 +20,22 @@ Calcule la diferencia entre ellos e informe por pantalla
 si el resultado es positivo, negativo o cero.
 '''
 
+print("ingrese un numero")
+numero_1 = int(input())
+print("ingrese otro numero")
+numero_2 = int(input())
+resto = float
+
+resto = numero_2 - numero_1
+
+if (resto > 0) :
+    print(resto, " Diferencia positiva")
+elif (resto < 0) :
+    print(resto, " Diferencia negativa")
+else :
+    print(resto ,"es 0")
+
+
+
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
